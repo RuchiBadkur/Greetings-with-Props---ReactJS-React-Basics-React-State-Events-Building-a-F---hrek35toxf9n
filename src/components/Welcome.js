@@ -3,7 +3,7 @@ import React from 'react';
 const Welcome = (props) => {
   return (
     <>
-    Hey ! <h1>{props.name}</h1>
+    <div>Hey ! <h1>{props.name}</h1></div>
     <h2>Welcome to Newton School.</h2>
     </>
     )
